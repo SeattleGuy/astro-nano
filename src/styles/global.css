@@ -2,7 +2,11 @@
 
 @plugin '@tailwindcss/typography';
 
+/* Toggling dark mode manually */
 @custom-variant dark (&:is(.dark *));
+
+/* Using a data attribute */
+/* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 
 @theme {
   --font-sans:
@@ -12,9 +16,19 @@
     Lora, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
 
     /* Colors */
-    --color-stone-100: #EFEFD0;
-    --color-stone-900: #004E89;
-    --color-text-black: #004E89;
+    --color-congress-blue-50: #eff8ff;
+    --color-congress-blue-100: #deefff;
+    --color-congress-blue-200: #b6e1ff;
+    --color-congress-blue-300: #76caff;
+    --color-congress-blue-400: #2db0ff;
+    --color-congress-blue-500: #0296f5;
+    --color-congress-blue-600: #0076d2;
+    --color-congress-blue-700: #005eaa;
+    --color-congress-blue-800: #004e89;
+    --color-congress-blue-900: #074273;
+    --color-congress-blue-950: #042a4d;
+
+
 }
 
 /*
@@ -53,14 +67,14 @@
   body {
     @apply font-sans antialiased;
     @apply flex flex-col;
-    @apply bg-stone-100 dark:bg-stone-900;
-    @apply text-black/50 dark:text-white/75;
+    @apply bg-congress-blue-100 dark:bg-congress-blue-900;
+    @apply text-congress-blue-950 dark:text-congress-blue-50;
   }
 
   header {
     @apply fixed top-0 left-0 right-0 z-50 py-5;
-    @apply bg-stone-100 dark:bg-stone-900;
-    @apply backdrop-blur-xs saturate-200;
+    @apply bg-congress-blue-100 dark:bg-congress-blue-900;
+    @apply backdrop-blur-lg;
   }
 
   main {
