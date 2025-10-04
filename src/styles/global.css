@@ -10,6 +10,11 @@
     'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   --font-serif:
     Lora, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+
+    /* Colors */
+    --color-stone-100: #EFEFD0;
+    --color-stone-900: #004E89;
+    --color-text-black: #004E89;
 }
 
 /*
@@ -54,7 +59,7 @@
 
   header {
     @apply fixed top-0 left-0 right-0 z-50 py-5;
-    @apply bg-stone-100/75 dark:bg-stone-900/25;
+    @apply bg-stone-100 dark:bg-stone-900;
     @apply backdrop-blur-xs saturate-200;
   }
 
