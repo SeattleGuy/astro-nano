@@ -32,37 +32,26 @@ const work = await Promise.all(
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h4 class="animate font-semibold text-black dark:text-white">
-      Hi, I'm Nano <span class="text-xl">👋🏻</span> 
-    </h4>
-    <div class="space-y-16">
+    <h2 class="text-3xl animate font-semibold text-black dark:text-white">
+      <span>🦄</span> I'm J. C. Vieth
+    </h2>
+    <div class="space-y-16 text-md">
       <section>
         <article class="space-y-4">
           <p class="animate">
-            I am a minimal, seo friendly, accessible portfolio and blog for developers. 
-            I am an even more lightweight version of my popular theme
-            <Link href="https://github.com/markhorn-dev/astro-sphere" aria-label="Astro Sphere on Github" external>
-              Astro Sphere
-            </Link>.
-            I have a lighthouse scores of 100 across the board for performance, 
-            accesibility, best practices and SEO.
+             Seattle based digital leader with a passion for full stack CX strategy, UX technology and product design. I focus on creative communication through experience and technology. I'm just as comfortable presenting in front of a client as I am behind a desk.
           </p>
           <p class="animate">
-            I come packed with full type safety, a sitemap, an rss feed, markdown 
-            and mdx support (use components in your markdown) through astro integrations.
-            I am styled with tailwind and come preconfigured with light, dark and 
-            system/os theme preferences out of the box.
+             Full Stack Strategy, User Experience Design, Design Systems, Content Management Systems (Enterprise, Database and Flat File), Project Planning, Technical Integration, Marketing, Analytics Implementation and Analysis, ERP, Inventory Management I am a minimal, seo friendly, accessible portfolio and blog for developers. 
           </p>
           <p class="animate">
-            Visit
-            <Link href="https://github.com/markhorn-dev/astro-nano" aria-label="Astro Nano on Github" external>
-              Astro Nano on Github
-            </Link>
-            to fork the repository, read the docs or one-click deploy on Vercel or Netlify. 
+            I own a nimble digital consultancy in the Pacific Northwest called
+            <Link href="https://monodon.studio" aria-label="Monodon Studio" external>
+              Monodon
+            </Link>. 
           </p>
         </article>
       </section>
-
       <!-- <section class="animate space-y-6">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h5 class="font-semibold text-black dark:text-white">
@@ -80,12 +69,29 @@ const work = await Promise.all(
           ))}
         </ul>
       </section> -->
-
-      <section class="animate space-y-6">
+      <section class="animate space-y-6 font-serif">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
+          <h3 class="font-semibold text-black dark:text-white">
+            Recent projects
+          </h3>
+          <Link href="/projects">
+            See all projects
+          </Link>
+        </div>
+        <ul class="flex flex-col gap-4">
+          {projects.map(project => (
+            <li>
+              <ArrowCard entry={project} />
+            </li>
+          ))}
+        </ul>
+      </section>
+
+      <section class="animate space-y-6 font-serif">
+        <div class="flex flex-wrap gap-y-2 items-center justify-between">
+          <h3 class="font-semibold text-black dark:text-white">
             Work Experience
-          </h5>
+          </h3>
           <Link href="/work">
             See all work
           </Link>
@@ -110,28 +116,10 @@ const work = await Promise.all(
         </ul>
       </section>
 
-      <section class="animate space-y-6">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h5 class="font-semibold text-black dark:text-white">
-            Recent projects
-          </h5>
-          <Link href="/projects">
-            See all projects
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {projects.map(project => (
-            <li>
-              <ArrowCard entry={project} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section class="animate space-y-4">
-        <h5 class="font-semibold text-black dark:text-white">
+      <section class="animate space-y-4 font-serif">
+        <h3 class="font-semibold text-black dark:text-white">
           Let's Connect
-        </h5>
+        </h3>
         <article>
           <p>
             If you want to get in touch with me about something or just to say hi,

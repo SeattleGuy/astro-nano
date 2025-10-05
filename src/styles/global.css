@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=DM+Serif+Text:ital@0;1&display=swap');
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/typography';
@@ -10,10 +11,9 @@
 
 @theme {
   --font-sans:
-    Inter, ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    "DM Serif Text", serif;
   --font-serif:
-    Lora, ui-serif, Georgia, Cambria, 'Times New Roman', Times, serif;
+    "Atkinson Hyperlegible Next", sans-serif;
 
     /* Colors */
     --color-congress-blue-50: #eff8ff;
@@ -28,7 +28,8 @@
     --color-congress-blue-900: #074273;
     --color-congress-blue-950: #042a4d;
 
-
+    --color-black: #F00;
+    --color-white: #EFEFD0;
 }
 
 /*
