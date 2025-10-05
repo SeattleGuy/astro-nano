@@ -5,7 +5,7 @@ import matomo from 'astro-matomo';
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://astro-nano-demo.vercel.app",
+  site: "https://jcvieth.com",
   integrations: [
     mdx(), 
     sitemap(),
