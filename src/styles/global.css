@@ -28,7 +28,7 @@
     --color-congress-blue-900: #074273;
     --color-congress-blue-950: #042a4d;
 
-    --color-black: #F00;
+    --color-black: #042a4d;
     --color-white: #EFEFD0;
 }
 
@@ -77,7 +77,15 @@
     @apply bg-congress-blue-100 dark:bg-congress-blue-900;
     @apply backdrop-blur-lg;
   }
-
+  h1 {
+    @apply text-4xl
+  }
+  h2 {
+    @apply text-3xl
+  }
+  h3 {
+    @apply text-2xl
+  }
   main {
     @apply flex-1 py-32;
   }

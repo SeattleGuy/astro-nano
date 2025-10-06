@@ -32,19 +32,19 @@ const work = await Promise.all(
 
 <PageLayout title={HOME.TITLE} description={HOME.DESCRIPTION}>
   <Container>
-    <h2 class="text-3xl animate font-semibold text-black dark:text-white">
+    <h1 class="animate font-semibold text-black dark:text-white">
       <span>🦄</span> I'm J. C. Vieth
-    </h2>
-    <div class="space-y-16 text-md">
+    </h1>
+    <div class="space-y-16">
       <section>
         <article class="space-y-4">
-          <p class="animate">
+          <p class="animate text-xl">
              Seattle based digital leader with a passion for full stack CX strategy, UX technology and product design. I focus on creative communication through experience and technology. I'm just as comfortable presenting in front of a client as I am behind a desk.
           </p>
-          <p class="animate">
+          <p class="animate text-xl">
              Full Stack Strategy, User Experience Design, Design Systems, Content Management Systems (Enterprise, Database and Flat File), Project Planning, Technical Integration, Marketing, Analytics Implementation and Analysis, ERP, Inventory Management I am a minimal, seo friendly, accessible portfolio and blog for developers. 
           </p>
-          <p class="animate">
+          <p class="animate text-xl">
             I own a nimble digital consultancy in the Pacific Northwest called
             <Link href="https://monodon.studio" aria-label="Monodon Studio" external>
               Monodon
@@ -69,31 +69,13 @@ const work = await Promise.all(
           ))}
         </ul>
       </section> */}
-      <section class="animate space-y-6 font-serif">
+            <section class="animate space-y-6 font-serif">
         <div class="flex flex-wrap gap-y-2 items-center justify-between">
           <h3 class="font-semibold text-black dark:text-white">
-            Recent projects
-          </h3>
-          <Link href="/projects">
-            See all projects
-          </Link>
-        </div>
-        <ul class="flex flex-col gap-4">
-          {projects.map(project => (
-            <li>
-              <ArrowCard entry={project} />
-            </li>
-          ))}
-        </ul>
-      </section>
-
-      <section class="animate space-y-6 font-serif">
-        <div class="flex flex-wrap gap-y-2 items-center justify-between">
-          <h3 class="font-semibold text-black dark:text-white">
-            Work Experience
+            Where I've been recently
           </h3>
           <Link href="/work">
-            See all work
+            Take a look at my full past experience
           </Link>
         </div>
         <ul class="flex flex-col space-y-4">
@@ -115,17 +97,38 @@ const work = await Promise.all(
           ))}
         </ul>
       </section>
+      <section class="animate space-y-6 font-serif">
+        <div class="flex flex-wrap gap-y-2 items-center justify-between">
+          <h3 class="font-semibold text-black dark:text-white">
+            Some past projects I think are worth noting 
+          </h3>
+          <Link href="/projects">
+            See all projects
+          </Link>
+        </div>
+        <ul class="flex flex-col gap-4">
+          {projects.map(project => (
+            <li>
+              <ArrowCard entry={project} />
+            </li>
+          ))}
+        </ul>
+      </section>
+
+
 
       <section class="animate space-y-4 font-serif">
         <h3 class="font-semibold text-black dark:text-white">
           Let's Connect
         </h3>
+         {/*
         <article>
           <p>
             If you want to get in touch with me about something or just to say hi,
             reach out on social media or send me an email.
           </p>
         </article>
+         */}
         <ul class="flex flex-wrap gap-2">
           {SOCIALS.map(SOCIAL => (
             <li class="flex gap-x-2 text-nowrap">
