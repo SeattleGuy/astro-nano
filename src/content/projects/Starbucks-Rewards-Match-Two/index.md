@@ -10,13 +10,13 @@ repoURL: ""
 
 Partnered with Starbucks Creative Studio to create and implament design system for their seasonal games with the goal of providing a better user experience while reducing creative and development timelines and budget
 
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectFeature_1140x767_1@2x.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectFeature_1140x767_2@2x.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_1.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_2.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_3.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_4.jpg)
-![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_5.jpg)
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectFeature_1140x767_1@2x.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectFeature_1140x767_2@2x.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_1.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_2.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_3.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_4.jpg)\
+![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_5.jpg)\
 ![Starbucks Rewards Bingo Game](../../../assets/Starbucks-Bingo/projectGallery_1000x673_6.jpg)
 
 ### The Creative Team

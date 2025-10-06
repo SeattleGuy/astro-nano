@@ -12,12 +12,12 @@ colorLight: "#FF0000"
 
 ![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/SFL_SocialShare_Game.png)
 
-Starbucks for Life has been a holiday tradition for Starbucks snice 2016. Each year the game experience refreshes and customer engagement increases.
+## Starbucks for Life has been a holiday tradition for Starbucks snice 2016. Each year the game experience refreshes and customer engagement increases.
 
-## Design Delivery
+### Design Delivery
 
-![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Components_Navigation.png)
-![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Layout_Gameboard.png)
-![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Layout_Dialog_Modal-GamePiece.png)
+![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Components_Navigation.png)\
+![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Layout_Gameboard.png)\
+![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Layout_Dialog_Modal-GamePiece.png)\
 ![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/Library_Components_GameboardStatus.png)
 
