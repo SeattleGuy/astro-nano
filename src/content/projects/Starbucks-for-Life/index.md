@@ -7,6 +7,7 @@ repoURL: ""
 brandColor: ""
 spotIllo: "SFL_SocialShare_Game.png"
 spotIlloPath: "SFL_SocialShare_Game.png"
+colorLight: "#FF0000"
 ---
 
 ![Starbucks For Life - social share](../../../assets/Starbucks-For-Life-2021/SFL_SocialShare_Game.png)
