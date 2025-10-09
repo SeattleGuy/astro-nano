@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
+@import '@fontsource/courier-prime';
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/typography';
@@ -9,20 +9,11 @@
 /* Using a data attribute */
 /* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 
-@font-face {  
-  font-family: CourierCode;
-  font-style: normal;
-  font-weight: 200 700;
-  font-display: swap;
-  src: url("/fonts/courier-code_regular.woff") format("woff2");
-  /* src: url("/fonts/courier-code_bold.woff") format("woff2"); */
-}
-
 @theme {
   --font-sans:
-    "CourierCode", serif;
+    'Courier Prime', monospace;
   --font-serif:
-    "CourierCode", sans-serif;
+    'Courier Prime', monospace;
 
     /* Colors */
     --color-congress-blue-50: #eff8ff;
