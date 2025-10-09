@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=DM+Serif+Text:ital@0;1&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'); */
 @import 'tailwindcss';
 
 @plugin '@tailwindcss/typography';
@@ -9,11 +9,20 @@
 /* Using a data attribute */
 /* @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *)); */
 
+@font-face {  
+  font-family: CourierCode;
+  font-style: normal;
+  font-weight: 200 700;
+  font-display: swap;
+  src: url("/fonts/courier-code_regular.woff") format("woff2");
+  /* src: url("/fonts/courier-code_bold.woff") format("woff2"); */
+}
+
 @theme {
   --font-sans:
-    "DM Serif Text", serif;
+    "CourierCode", serif;
   --font-serif:
-    "Atkinson Hyperlegible Next", sans-serif;
+    "CourierCode", sans-serif;
 
     /* Colors */
     --color-congress-blue-50: #eff8ff;
