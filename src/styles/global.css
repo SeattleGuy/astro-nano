@@ -58,6 +58,15 @@
   a {
     font-family: var(--font-sans);
   }
+  h1 {
+    font-size: var(--text-4xl);
+  }
+  h2 {
+    font-size: var(--text-3xl);
+  }
+  h3 {
+    font-size: var(--text-xl);
+  }
 }
 
 @layer utilities {
@@ -88,16 +97,6 @@
     @apply backdrop-blur-lg;
   }
   
-  
-  h1 {
-    @apply text-4xl
-  }
-  h2 {
-    @apply text-3xl
-  }
-  h3 {
-    @apply text-2xl
-  }
   main {
     @apply flex-1 py-32;
   }
