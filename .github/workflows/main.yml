@@ -20,4 +20,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: jcvieth.com2025/
         local-dir: ./dist/
-        dry-run: true
+        #dry-run: true
