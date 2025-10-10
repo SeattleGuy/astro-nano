@@ -1,4 +1,8 @@
-on: push
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'dist/**'
 name: 🚀 Deploy website on push
 jobs:
   web-deploy:
@@ -16,4 +20,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         server-dir: jcvieth.com2025/
         local-dir: ./dist/
-        #dry-run: true
+        dry-run: true
