@@ -49,6 +49,15 @@
   ::file-selector-button {
     border-color: var(--color-gray-200, currentcolor);
   }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: var(--font-sans);
+  }
+  header {
+    font-family: var(--font-sans);
+  }
+  a {
+    font-family: var(--font-sans);
+  }
 }
 
 @layer utilities {
@@ -66,9 +75,6 @@
     @apply size-full;
   }
 
-  a {
-    @apply font-sans;
-  };
   body {
     @apply font-serif antialiased;
     @apply flex flex-col;
@@ -77,24 +83,20 @@
   }
 
   header {
-    @apply font-sans antialiased;
     @apply fixed top-0 left-0 right-0 z-50 py-5;
     @apply bg-congress-blue-100 dark:bg-congress-blue-900;
     @apply backdrop-blur-lg;
   }
-  h1,h2,h3,h4,h5,h6{
-    @apply font-sans;
-  }
+  
   
   h1 {
-    @apply text-4xl;
-
+    @apply text-4xl
   }
   h2 {
-    @apply text-3xl;
+    @apply text-3xl
   }
   h3 {
-    @apply text-2xl;
+    @apply text-2xl
   }
   main {
     @apply flex-1 py-32;
